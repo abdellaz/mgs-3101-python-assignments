@@ -1,0 +1,18 @@
+ShopName = "Lower Manhatten Coffee Shop"
+print (ShopName)
+#Quantity sold for drinks and bakery items
+CoffeeQty = 18204
+CoffeePrice = 3
+TeaQty = 13912
+TeaPrice = 2.5
+drinkrevenue = (CoffeeQty * CoffeePrice) + (TeaQty * TeaPrice) 
+print ("Revenue From Drinks:", drinkrevenue)
+PastryQty = 7890
+PastryPrice = 3
+PastryRevenue = PastryQty * PastryPrice
+print ("Revenue From Bakery Items:", PastryRevenue)
+totalrevenue = (drinkrevenue + PastryRevenue)
+if totalrevenue > 500:
+    print ("Revenue Goal Met")
+else:
+    print ("Revenue Goal Not Met")
